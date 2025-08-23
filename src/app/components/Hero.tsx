@@ -7,7 +7,7 @@ import Contact from "./Contact";
 function CircularBadge() {
   return (
     <a
-      href="/experience"
+      href="/experience/"
       aria-label="Go to Experience"
       className="
         group w-28 h-28 mx-auto mt-6
