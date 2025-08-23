@@ -1,4 +1,3 @@
-# .github/workflows/pages.yml
 name: Deploy to GitHub Pages
 on:
   push:
@@ -24,8 +23,7 @@ jobs:
           node-version: 20
           cache: npm
       - run: npm ci
-      - run: npm run build
-      - run: npx next export
+      - run: npm run build         # this creates ./out because output: 'export' is set
       - uses: actions/upload-pages-artifact@v3
         with:
           path: ./out
