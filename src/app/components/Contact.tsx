@@ -29,14 +29,14 @@ export default function Contact() {
             <Phone size={18} /> Mobile
           </a>
           <a
-            href="https://www.linkedin.com/in/sj6038372a/"
+            href="https://www.linkedin.com/in/sj60383721a/"
             target="_blank"
             className="flex items-center gap-2 hover:opacity-80"
           >
             <Linkedin size={18} /> LinkedIn
           </a>
           <a
-            href="https://github.com/"
+            href="https://github.com/nikhilreddy1102"
             target="_blank"
             className="flex items-center gap-2 hover:opacity-80"
           >
